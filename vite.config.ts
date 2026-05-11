@@ -18,6 +18,15 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: 'dist',
       emptyOutDir: true,
+      chunkSizeWarningLimit: 1600,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['react', 'react-dom', 'lucide-react'],
+            pdf: ['jspdf', 'jspdf-autotable'],
+          }
+        }
+      }
     }
   };
 });
