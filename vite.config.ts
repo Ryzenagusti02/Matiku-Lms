@@ -22,8 +22,7 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         output: {
           manualChunks: {
-            vendor: ['react', 'react-dom', 'lucide-react'],
-            pdf: ['jspdf', 'jspdf-autotable'],
+            vendor: ['react', 'react-dom', 'lucide-react']
           }
         }
       }
