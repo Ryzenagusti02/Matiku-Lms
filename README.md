@@ -1,18 +1,16 @@
--- ##################################################################################
--- ## 🚀 SCRIPT SETUP LENGKAP UNTUK MATIKU LMS                                     ##
--- ## PENTING: Ikuti SEMUA 4 langkah di bawah ini secara BERURUTAN. Melewatkan     ##
--- ##          satu langkah akan menyebabkan error pada aplikasi.                  ##
--- ##################################################################################
+🚀 SCRIPT SETUP LENGKAP UNTUK MATIKU LMS<br>
+PENTING: Ikuti SEMUA 4 langkah di bawah ini secara BERURUTAN. Melewatkan satu langkah akan menyebabkan error pada aplikasi.
 
--- ❗ **MENGATASI ERROR "Bucket not found"** ❗
--- Error ini adalah yang paling umum dan terjadi jika Anda **melewatkan LANGKAH 2**.
--- Anda **HARUS** membuat bucket penyimpanan bernama `matiku_storage` secara manual
--- di dashboard Supabase SEBELUM menjalankan aplikasi.
 
--- ==================================================================================
--- LANGKAH 1: BUAT TABEL DATABASE
--- ## Jalankan script di bawah ini di Supabase SQL Editor untuk membuat semua      ##
--- ## tabel dan fungsi yang diperlukan.                                           ##
+❗ **MENGATASI ERROR "Bucket not found"** ❗<br>
+Error ini adalah yang paling umum dan terjadi jika Anda **melewatkan LANGKAH 2**.
+Anda **HARUS** membuat bucket penyimpanan bernama `matiku_storage` secara manual
+di dashboard Supabase SEBELUM menjalankan aplikasi.
+
+==================================================================================
+LANGKAH 1: BUAT TABEL DATABASE
+-- Jalankan script di bawah ini di Supabase SQL Editor untuk membuat semua<br>
+-- tabel dan fungsi yang diperlukan.
 -- ==================================================================================
 
 -- Tabel `profiles` untuk menyimpan data pengguna (guru dan siswa)
